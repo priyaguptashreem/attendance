@@ -26300,7 +26300,7 @@ a95:function a95(){},
 qo:function qo(a){this.a=a},
 XZ:function XZ(a,b){var _=this
 _.d=a
-_.e="IP ADDRESS"
+_.e=""
 _.a=null
 _.b=b
 _.c=null},
@@ -26314,7 +26314,7 @@ XS:function XS(a,b,c){var _=this
 _.d=a
 _.e=b
 _.r=_.f="Not Found"
-_.y="IP ADDRESS"
+_.y=""
 _.a=null
 _.b=c
 _.c=null},
@@ -86561,10 +86561,11 @@ this.k9()},
 U(a){var s=null,r=A.b([B.c6,B.fW,B.c6],t.t_),q=A.jt(1,0.5),p=A.jt(0,0.5),o=A.b([0,0.5,1],t.u),n=A.bV("Employee ID",s,s,s,A.cK(s,s,B.j,s,s,s,s,s,s,s,s,26,s,s,B.be,s,s,!0,s,s,s,s,s,s,s,s),s,s),m=A.bV("",s,s,s,s,s,s),l=A.bV("",s,s,s,s,s,s),k=A.ic(50,600),j=A.awg(s,new A.iz(4,A.aqd(5),new A.aZ(B.j,1,B.x,-1)),s,s,s,s,s,s,!0,s,s,s,s,s,s,B.G,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"ENTER YOUR'S EMPLOYEE ID",s,s,s,s,s,s,s,s,s,s,s,s,s),i=A.bV("",s,s,s,s,s,s),h=A.ic(50,200),g=A.bV("SUBMIT",s,s,s,s,s,s)
 return A.abA(A.km(B.a4,A.qS(A.b([n,m,l,new A.fa(k,new A.BA(this.d,j,B.Nz,B.Mi,B.Mj,!0,s),s),i,new A.fa(h,new A.IS(new A.aoq(this,a),s,s,s,A.aqM(s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.fJ(A.o_(new A.az(5,5)),B.r),new A.aZ(B.j,1,B.x,-1),s,s,A.cK(s,s,s,s,s,s,s,s,s,s,s,30,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s),s,s,!1,s,!0,g,s),s)],t.F),B.cl,B.fT,B.bJ),B.z,s,new A.dO(s,s,s,s,s,new A.kL(q,p,B.bQ,r,o,s),B.aK),s,s,s,1/0))}}
 A.aoq.prototype={
-$0(){var s=0,r=A.H(t.H),q=this,p,o,n,m,l,k
+$0(){var s=0,r=A.H(t.H),q=this,p,o,n,m,l,k,j
 var $async$$0=A.I(function(a,b){if(a===1)return A.E(b,r)
 while(true)switch(s){case 0:l=q.a
 k=B.d.mt(l.d.a.a)
+j=l.e
 l.aj(new A.aoo())
 s=k.length===0?2:4
 break
@@ -86578,13 +86579,11 @@ o=(p==null?$.dp=$.j9():p).iW("[DEFAULT]")
 A.dq(o,$.hn(),!0)
 p=A.avP(new A.ew(o))
 s=5
-return A.C(A.ayU(p,p.ghZ().pn("Employee Infor")).Ay(0,"id",k).Ay(0,"ipaddress",l.e).uZ(0),$async$$0)
+return A.C(A.ayU(p,p.ghZ().pn("Employee Infor")).Ay(0,"id",k).Ay(0,"ipaddress",j).uZ(0),$async$$0)
 case 5:n=b
 p=n.gtC()[0]
-if(k===A.hZ(p.b.ds(0,"id"),p.a)){p=l.e
-m=n.gtC()[0]
-m=p===A.hZ(m.b.ds(0,"ipaddress"),m.a)
-p=m}else p=!1
+if(k===A.hZ(p.b.ds(0,"id"),p.a)){p=n.gtC()[0]
+p=j===A.hZ(p.b.ds(0,"ipaddress"),p.a)}else p=!1
 m=q.b
 if(p){l=A.Kz(new A.aop(l),null,t.z)
 A.zj(m).mj(l)}else{l=m.an(t.Pu)
